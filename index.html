@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92039005-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-92039005-1');
+</script>
 
 <head>
 
@@ -19,7 +28,7 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
+  <link href="css/resume.css" rel="stylesheet">
 
 </head>
 
@@ -28,15 +37,18 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
 
-      <span class="d-block d-lg-none">Édith Darin's Resume</span>
+      <span class="d-block d-lg-none">Édith Darin Resume</span>
       <span class="d-none d-lg-block">
-        <div style="top:0px;text-align: left;padding-left: 0rem;border:0rem;margin-bottom: 5rem;margin-top: 0rem;">
-          <p><h3> <strong>Édith Darin's Website </strong></h3> </p>
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-4" src="img/profile.jpg" alt="">
+        <div style="top:0px;text-align: center;padding-left: 0rem;border:0rem;margin-bottom: 2rem;margin-top: 0rem;">
+          <p>
+          <h2> <strong>Édith <br> Darin</strong></h2>
+          </p>
         </div>
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
       </span>
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -48,16 +60,16 @@
           <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#talks">Talks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#commitment">Commitment</a>
@@ -73,22 +85,28 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-0">Édith
-          <span class="text-primary">Darin</span>
-        </h1>
-        <div class="subheading mb-5">Social Science · Statistics · Geospatial Data Science
+
+        <div class="h1 mb-5">Social Science · Statistics · Geospatial Data Science
         </div>
-        <p class="lead mb-5"> I am currently a research assistant at <a href="https://www.worldpop.org" target="_blank"; >WorldPop</a>, University of Southampton, supporting population modeling and mapping in the <a href="http://grid3.org" target="_blank"; > GRID3 project</a>. <br />
-          Previously, I earned a MSc in applied GIS and Remote Sensing at the University of Southampton, 
-          where I wrote my thesis on deprived area mapping, a topic at the intersection between <b>Geographic Information Systems</b>, Statistical Modeling, and Social Sciences. 
-          I also have a strong background in <b>Statistics</b> (MSc from the ENSAE Paristech) and <b>Social Sciences</b> (Master at ENS Cachan) and their intrications. <br />
-          I applied my skills in <b>academia</b> (Worldpop, University of Southampton), in <b>humanitarian agency</b> (UN World Food Program) and in <b>governmental structure</b> (Etalab, France) always combining a strive for social justice and transparency with an indecent pleasure in playing with data.
+        <p class="lead mb-5"> I am currently a research assistant at <a href="https://www.worldpop.org" target="_blank"
+            ;>WorldPop</a>, University of Southampton, supporting population modeling and mapping in the <a
+            href="http://grid3.org" target="_blank" ;> GRID3 project</a>. <br /><br />
+
+          Previously, I earned a MSc in applied GIS and Remote Sensing at the University of Southampton,
+          where I wrote my thesis on deprived area mapping, a topic at the intersection between <b>Geographic
+            Information Systems</b>, Statistical Modeling, and Social Sciences.
+          I also have a strong background in <b>Statistics</b> (MSc from the ENSAE Paristech) and <b>Social Sciences</b>
+          (Master at ENS Cachan) and their intrications. <br /> <br />
+          I applied my skills in <b>academia</b> (Worldpop, University of Southampton), in <b>humanitarian agency</b>
+          (UN World Food Program) and in <b>governmental structure</b> (Etalab, France) always combining a strive for
+          social justice and transparency with an indecent pleasure in playing with data.
 
 
         <div class="subheading mb-5">
           <a href="mailto:edith.darin@protonmail.com">edith.darin@protonmail.com</a>
         </div>
-        <p><div class="social-icons" style="padding-bottom: 3rem;">
+        <p>
+        <div class="social-icons" style="padding-bottom: 3rem;">
           <a href="#">
             <i class="fab fa-linkedin-in"></i>
           </a>
@@ -101,7 +119,8 @@
           <a href="https://www.researchgate.net/profile/Edith_Darin">
             <i class="fab fa-researchgate"></i>
           </a>
-        </div></p>
+        </div>
+        </p>
         <div class="subheading mb-5">
           <a href="img/Curriculum_Vitae_DARIN.pdf" target="_blank">Curriculum vitae</a>
         </div>
@@ -116,28 +135,33 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Research assistant</h3>
+            <h3 class="mb-0">Specialist Research Technician</h3>
             <div class="subheading mb-3">Worldpop, University of Southampton</div>
-            <p> I'm part of the Geo-referenced Infrastructure and Demographic Data for Development Project (GRID3) whose goal is to produce population modelling for Low and Middle Income Countries in the absence of a census. </p>
-            <p> <b>Tasks:</b></p> 
+            <p> I'm part of the Geo-referenced Infrastructure and Demographic Data for Development Project (GRID3) whose
+              goal is to produce <b> high-resolution population estimation and mapping for Low and Middle Income
+                Countries</b> in the absence of a census. </p>
+            <b>Tasks:</b>
             <div class="task">
-              <p> Hierarchical Bayesian Modelling with Survey Data and Geospatial Covariates (R, JAGS). <br />
-                Grid-based Sampling Design for Household Surveys (R). <br />
-                Data Production and Dissemination. <br />
-                Country Engagement Work in Burkina Faso. <br />
-                Workshop and Training on Population Estimates with Statistical Office Members in Kinshasa, DRC.</p>
-            </div> 
+              <p> Hierarchical Bayesian framework for population modelling in data-scarce context <br />
+                Grid-based sampling design for household surveys. <br />
+                Lead modeller for the official hybrid census in Burkina Faso. <br />
+                Workshop and training on gridded population for national statistical offices. <br />
+                Shiny app for visualising gridded population estimates</p>
+            </div>
             <div class="link">
-                <a href="https://www.worldpop.org/">[Worldpop]</a>  · 
-                <a href="http://www.grid3.org/">[GRID3]</a>
+              <a href="https://www.worldpop.org/">[Worldpop]</a> ·
+              <a href="http://www.grid3.org/">[GRID3]</a> ·
+              <a href="https://grid3.org/news/modelled-pop-estimates-for-census-make-burkina-fasos-pop-visible">[Hybrid
+                Census in Burkina]</a> ·
+              <a href="https://apps.worldpop.org/woprVision/">[woprVision App]</a>
 
             </div>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Southampton UK, July 2018 - Present</span>
-            <div class= "img">
-                <img src="img/PopEstimates.jpg" style="max-width:250px;padding:5px;">
-            </div>  
+            <div class="img">
+              <img src="img/PopEstimates.jpg" style="max-width:250px;padding:5px;">
+            </div>
           </div>
         </div>
 
@@ -145,24 +169,30 @@
           <div class="resume-content">
             <h3 class="mb-0">Data Science Intern</h3>
             <div class="subheading mb-3">UN World Food Program</div>
-              <p> I was assisting the work of the mVAM Unit which is dedicated to remote data collection on food security. </p>
-              <p> <b>Tasks:</b></p>
-              <div class="task">
-                  <p>Applying Machine Learning for Propensity Score Weighting in Complex Survey Design (R). <br />
-                Scoping Study on High-Resolution Mapping of Food Security Indicators. <br />Panel Attrition Analysis (Stata). <br />Descriptive statistics on Call Detail Record data (Python). <br /> Support Mission at Mali Country Office (Bamako)</p>
-              </div>
-              <div class="link">
-                  <a href="https://dataviz.vam.wfp.org/">[mVAM]</a> · 
-                  <a href="https://mvam.org/2017/06/08/mind-the-mode-and-the-non-response/">[Blog Post on Selection Bias]</a> · 
-                  <a href="https://mvam.org/2017/09/18/a-new-mvam-baby-in-mali-weight-7800-respondents/">[Blog Post on Mali Mission]</a>
-
-                </div> 
+            <p> I was assisting the work of the mVAM Unit which is dedicated to <b>remote data collection for food
+                security assessment</b> </p>
+            <b>Tasks:</b>
+            <div class="task">
+              <p>Machine-learning based propensity score weighting for complex survey designs. <br />
+                Scoping study on high-resolution mapping of food security indicators. <br />
+                Panel attrition analysis. <br />
+                Descriptive statistics on call detail record data. <br />
+                Support mission at Mali country office (Bamako).</p>
             </div>
+            <div class="link">
+              <a href="https://dataviz.vam.wfp.org/">[mVAM]</a> ·
+              <a href="https://mvam.org/2017/06/08/mind-the-mode-and-the-non-response/">[Blog Post on Selection
+                Bias]</a> ·
+              <a href="https://mvam.org/2017/09/18/a-new-mvam-baby-in-mali-weight-7800-respondents/">[Blog Post on Mali
+                Mission]</a>
+
+            </div>
+          </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Rome Italy, January 2017 - August 2018</span>
-            <div class= "img">
-             <img src="img/mvam.jpg" style="max-width:250px;padding:5px;">
-            </div>  
+            <div class="img">
+              <img src="img/mvam.jpg" style="max-width:250px;padding:5px;">
+            </div>
           </div>
         </div>
 
@@ -170,38 +200,125 @@
           <div class="resume-content">
             <h3 class="mb-0">Data Science Intern</h3>
             <div class="subheading mb-3">Etalab, French Prime Minister's Task Force for Open-Data</div>
-            <p> <b> Openfisca Project </b>: French Tax and Benefit System Micro-Simulation Software. Tasks: 
-              <div class="task">
-              Transforming some tax and benefit legislation into code (Python). <br /> 
-              Generating a representative Synthetic Population (Jupyter Notebook). <br /> 
-              Producing teaching material and tutorial (Jupyter Notebook). <br />
-              Documenting the platform (Gitbook). <br /> 
-              Promoting the project through the participation to hackathons on open-data. <br /> </p>
-              </div>
+            <p><b> Openfisca Project </b>: French Tax and Benefit System Micro-Simulation Software. <br />
+            <div class="task">
+              Tasks: <br />
+              Coding tax and benefit legislation <br />
+              Generating a representative Synthetic Population <br />
+              Documenting the platform. <br />
+            </div>
+            </p>
 
-              <p> <b> Entrepreneurs d'Intérêt Général Project </b>: governmental program for recruiting high-skilled developers on specific short-term projects. Tasks:
-              <div class="task">
-                Organising the program launch and liaising with the different host governmental agencies. <br /> 
-                Developing a mentoring program with the Liberty Living Lab incubator. <br /> 
-                Designing candidates selection process.  </p>
-              </div>
-              <div class="link">
-                  <a href="https://openfisca.org/en/">[Openfisca]</a> ·
-                  <a href="https://entrepreneur-interet-general.etalab.gouv.fr/">[EIG]</a>
-              </div>
+            <p><b> Entrepreneurs d'Intérêt Général Project </b>: governmental program for recruiting high-skilled
+              developers on specific short-term projects. <br />
+
+            <div class="task">
+              Tasks: <br />
+              Organising program launch and liaising with host governmental agencies. <br />
+              Developing a mentoring program with the Liberty Living Lab incubator. <br />
+            </div>
+            </p>
+            <div class="link">
+              <a href="https://openfisca.org/en/">[Openfisca]</a> ·
+              <a href="https://entrepreneur-interet-general.etalab.gouv.fr/">[EIG]</a>
+            </div>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Paris France, July 2010 - December 2011</span>
-            <div class= "img">
-                <img src="img/openfisca.jpg" style="max-width:250px;padding:5px;">
-                <img src="img/logo-marianne-eig-site.png" style="max-width:250px;padding:5px;padding-top: 2rem;">
+            <div class="img">
+              <img src="img/openfisca.jpg" style="max-width:250px;padding:5px;">
+              <img src="img/logo-marianne-eig-site.png" style="max-width:250px;padding:5px;padding-top: 2rem;">
 
-            </div> 
+            </div>
           </div>
         </div>
 
       </div>
 
+    </section>
+
+    <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="publications">
+      <div class="w-100">
+        <h2 class="mb-5">Publications</h2>
+        <h3> In Preparation </h3>
+        <p><b>Darin E</b>, Boo G, Jochem C, Kueffer M, Tatem AJ. <i>An integrative framework to model urban deprivation
+            at high spatial resolution</i>.
+        </p>
+        <p>
+          <b>Darin E</b>, Kuepie M, Bassinga H, Tatem AJ. <i>La population vue du ciel: Quand l’imagerie satellite vient
+            au secours du recensement </i>.
+          </i>
+
+        </p>
+        <p>Leasure DR,Dooley C, Boo G, <b>Darin E</b> and Tatem AJ.
+          <i>Estimating populations in data-poor regions using commonly available population-weighted household survey
+            data</i>.
+        </p>
+        <h3>Refeered publications</h3>
+        </p>
+        <p>Kuffer M, Thomson DR, Kabaria, C, Boo G, <b>Darin E</b> , Mahabir R, Grippa T, Vhuysse S, Albuquerque J,
+          Ndugwa R, Makau J, Muluadi J.
+          <i>The Role of Earth Observation in an Integrated Deprived Area Mapping “System” for Low-to-Middle Income
+            Countries</i>. 2020. Remote Sensing. 12, 982.
+          <a class=link href="https://www.mdpi.com/2072-4292/12/6/982">PDF</a>
+        <p>Boo G, <b>Darin E</b> , Thomson DR, and Tatem AJ.
+          <i>A grid-based sampling design framework for household surveys in the absence of an actionable sampling
+            frame</i>. 2020. Gates Open Research. 4:13.
+          <a class=link href="https://gatesopenresearch.org/articles/4-13/v1">PDF</a>
+
+        </p>
+        </p>
+        <h3> Datasets </h3>
+        <p>
+          Leasure DR, <b>Darin E </b> Tatem AJ. <i> Bayesian gridded population estimates for Ghana 2018, version
+            1.2</i>. 2021. WorldPop, University of Southampton
+          <a class=link href="https://wopr.worldpop.org/?GHA/Population/v1.2">LINK</a>
+        </p>
+        <p> WorldPop and Institut National de la Statistique et de la Démographie du Burkina Faso. <i>Census-based
+            gridded population estimates for Burkina Faso (2019), version 1.0.</i> 2020. WorldPop, University of
+          Southampton
+          <a class=link href="https://wopr.worldpop.org/?BFA/Population/v1.0">LINK</a>
+        </p>
+        <p>Boo G, <b>Darin E</b>, Leasure DR, Dooley CA, Chamberlain HR, Lazar AN, Tatem AJ. <i>Modelled gridded
+            population estimates for the Kinshasa, Kongo-Central, Kwango, Kwilu, and Mai-Ndombe provinces in the
+            Democratic Republic of the Congo 2018, version 2.0.</i> WorldPop, University of Southampton
+          <a class=link href="https://wopr.worldpop.org/?COD/Population/v2.0">LINK</a>
+        </p>
+
+        <h3> Apps </h3>
+<p>
+  Leasure DR, Bondarenko M, <b>Darin E</b>, Tatem AJ. <i>wopr: An R package to query the WorldPop Open Population Repository, version 0.4.0.</i>  WorldPop, University of Southampton
+  <a class=link href="https://apps.worldpop.org/woprVision/">LINK</a>
+
+</p>
+
+        <h3> Non-refereed Conference Proceedings </h3>
+        <p> Boo G, <b>Darin E</b>, Leasure DR, and Tatem AJ.
+          <i>High-resolution population mapping and estimation in the western part of the Democratic Republic of
+            Congo</i>. Proceedings of the GEOMED 2019 Conference. Glasgow, Scottland.
+          <a href="/img/boo-poster_web.pdf" class=link>PDF</a></p>
+
+        <p> <b>Darin E</b>, Boo G, Thomson DR, and Tatem AJ.
+          <i>A grid-based sampling design for household surveys in the absence of actionable sampling frames</i>.
+          Proceedings of the GEOMED 2019 Conference. Glasgow, Scottland.
+          <a href="/img/darin-poster_web.pdf" class=link>PDF</a></p>
+
+        <h3> Contributions </h3>
+        <p>Sicsic M.
+          <i>Financial Incentives to Work in France between 1998 and 2014</i>. 2018. Economie et Statistique.
+          <a class=link href="https://www.persee.fr/doc/estat_0336-1454_2018_num_503_1_10852">PDF</a>
+        </p>
+        <p>Fourcot J and Sicsic M.
+          <i>Les taux marginaux effectifs de prélèvement pour les
+            personnes en emploi en France en 2014</i>. 2017. Direction des statistiques démographiques et sociales.
+          <a class=link href="https://www.insee.fr/fr/statistiques/fichier/2581807/F1701.pdf">PDF</a>
+        </p>
+        <p>Bastard B, Boigeol A, Bénec'H-Le Roux P, Jamet L and Printz A.
+          <i>Éthique et TIC : A quoi sert l’Ordre des avocats ?</i>. 2016. Mission de Recherche Droit et Justice.
+          <a class=link href="https://halshs.archives-ouvertes.fr/halshs-01592917/document">PDF</a>
+        </p>
+      </div>
     </section>
 
     <hr class="m-0">
@@ -214,12 +331,15 @@
           <div class="resume-content">
             <h3 class="mb-0">University of Southampton</h3>
             <div class="subheading mb-3">MSc in Applied GIS and Remote Sensing</div>
-                <p>Dissertation topic: "<i>Mapping ‘slumness’: an insight comparing
-                survey data and geospatial covariates.</i>". Supervisors: <a class= link href="http://www.idiosyncraticmapper.net/">Dr. Gianluca Boo</a> and  <a class= link href="https://www.southampton.ac.uk/geography/about/staff/ajt1m11.page">Pr. Andy Tatem</a>
-              </p>
+            <p>Dissertation topic: "<i>Mapping ‘slumness’: an insight comparing
+                survey data and geospatial covariates.</i>". Supervisors: <a class=link
+                href="http://www.idiosyncraticmapper.net/">Dr. Gianluca Boo</a> and <a class=link
+                href="https://www.southampton.ac.uk/geography/about/staff/ajt1m11.page">Pr. Andy Tatem</a>
+            </p>
             <p>Grade</p>
             <div class="link">
-                <a href="https://www.southampton.ac.uk/geography/postgraduate/taught_courses/msc_applied_gis_and_remote_sensing.page">[Link]</a>
+              <a
+                href="https://www.southampton.ac.uk/geography/postgraduate/taught_courses/msc_applied_gis_and_remote_sensing.page">[Link]</a>
             </div>
           </div>
           <div class="resume-date text-md-right">
@@ -232,10 +352,10 @@
             <h3 class="mb-0">ENSAE Paristech</h3>
             <div class="subheading mb-3">Master in Statistics</div>
             <p> Majors in Statistics, Machine Learning, Parametric and Non-Parametric
-Econometrics, Computational Social Sciences, Public Policy Evaluation. </p>
+              Econometrics, Computational Social Sciences, Public Policy Evaluation. </p>
             <p>Grade: First class honours</p>
             <div class="link">
-                <a href="https://www.ensae.fr/en/">[Link]</a>
+              <a href="https://www.ensae.fr/en/">[Link]</a>
             </div>
           </div>
           <div class="resume-date text-md-right">
@@ -244,141 +364,32 @@ Econometrics, Computational Social Sciences, Public Policy Evaluation. </p>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div class="resume-content">
-              <h3 class="mb-0">Ecole Normale Supérieure de Cachan, Paris School of Economics</h3>
-              <div class="subheading mb-3">Master in Economics</div>
-              <p>First class honours</p>
-              <div class="link">
-                  <a href="https://www.parisschoolofeconomics.eu/en/">[Link]</a>
-              </div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Paris, September 2014 - September 2015</span>
+          <div class="resume-content">
+            <h3 class="mb-0">Ecole Normale Supérieure de Cachan, Paris School of Economics</h3>
+            <div class="subheading mb-3">Master in Economics</div>
+            <p>First class honours</p>
+            <div class="link">
+              <a href="https://www.parisschoolofeconomics.eu/en/">[Link]</a>
             </div>
           </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div class="resume-content">
-              <h3 class="mb-0">Ecole Normale Supérieure de Cachan, Paris-I-Panthéon-Sorbonne, Paris-Sorbonne</h3>
-              <div class="subheading mb-3">Double Bachelor degree in Sociology and Economics</div>
-              <p>First class honours</p>
-              <div class="link">
-                  <a href="https://ens-paris-saclay.fr/en/school/departments/social-sciences-department">[Link]</a>
-              </div>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Paris, September 2011 - September 2014</span>
-            </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Paris, September 2014 - September 2015</span>
           </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-        <h3> Programming Languages &amp; Tools</h3>
-        <h4 class="mb-0">R Suite</h4>
-        <div class="resume-content">
-          <img class="img-fluid img-profile mx-auto mb-2" src="img/rlosange.jpg" alt="", style="padding-top: 3rem;">
-          Other R packages: sf, raster, lavaan, rjags
         </div>
 
-        <h4 class="mb-0">Python Suite</h4>
-        <div class="resume-content">
-            <img class="img-fluid " src="img/jupyter.png" alt="" style="max-width:150px;padding-bottom: 3rem;padding-top: 3rem;">
-            <img class="img-fluid " src="img/scikit.jpg" alt="" style="max-width:150px">
-
-            Other Python module: numpy, panda, matplolib.
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Ecole Normale Supérieure de Cachan, Paris-I-Panthéon-Sorbonne, Paris-Sorbonne</h3>
+            <div class="subheading mb-3">Double Bachelor degree in Sociology and Economics</div>
+            <p>First class honours</p>
+            <div class="link">
+              <a href="https://ens-paris-saclay.fr/en/school/departments/social-sciences-department">[Link]</a>
+            </div>
           </div>
-        <h4 class="mb-0">GIS Software</h4>
-        <div class="resume-content">
-            <img class="img-fluid " src="img/arcgis.jpg" alt="" style="max-width:150px;padding-bottom: 3rem;">
-            <img class="img-fluid " src="img/qgis.jpg" alt="" style="max-width:150px;">
-
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Paris, September 2011 - September 2014</span>
           </div>
-        <h4 class="mb-0">Miscelleanous</h4>
-        <p>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            JAGS for Bayesian Estimation.</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            LaTeX as document preparation system.</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Basic knowldge of UNIX system.</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Basic knowldge of html and css.</li>
-        </ul></p>
-
-        <h3>Work Management Tools</h3>
-        <ul class="fa-ul mb-0">
-            <li>
-              <i class="fab fa-slack-hash"></i>
-              Slack</li>
-            <li>
-              <i class="fab fa-trello"></i>
-              Trello</li>
-            <li>
-              <i class="fas fa-file-excel"></i>
-              Excel</li>
-            <li>
-              <i class="fab fa-git"></i>
-              Git versionning</li>
-          </ul>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="publications">
-      <div class="w-100">
-        <h2 class="mb-5">Publications</h2>
-        <h3> In Preparation </h3>
-          <p>Boo G, <b>Darin E</b> , Leasure DR, and Tatem AJ. 
-            <i>High-resolution population mapping and estimation in five provinces of the Democratic Republic of Congo</i>. 
-          </p>
-          
-            <p>Kuffer M, Thomson DR, Kabaria, C, Boo G, <b>Darin E</b> , Mahabir R, Grippa T, Vhuysse S, Albuquerque J, Ndugwa R, Makau J, Muluadi J.
-            <i>The role of earth observation in an integrated deprived area mapping system for LMICs</i>. 
-          </p>
-
-          <p>Boo G, <b>Darin E</b> ,  Thomson DR, and Tatem AJ. 
-            <i>A grid-based sampling design framework for household surveys in the absence of an actionable sampling frame</i>. 
-          </p>
-
-          <p>Leasure DR, Dooley C, Boo G, <b>Darin E</b>  and Tatem AJ. 
-            <i>Estimating populations in data-poor regions using commonly available population-weighted household survey data</i>. 
-          </p>
-
-        <h3> Non-refereed Conference Proceedings </h3>
-           <p> Boo G, <b>Darin E</b>, Leasure DR, and Tatem AJ. 
-          <i>High-resolution population mapping and estimation in the western part of the Democratic Republic of Congo</i>. Proceedings of the GEOMED 2019 Conference. Glasgow, Scottland. 
-          <a href="/img/boo-poster_web.pdf" class = link>PDF</a></p>
-      
-            <p> <b>Darin E</b>, Boo G, Thomson DR, and Tatem AJ. 
-          <i>A grid-based sampling design for household surveys in the absence of actionable sampling frames</i>. Proceedings of the GEOMED 2019 Conference. Glasgow, Scottland. 
-          <a href="/img/darin-poster_web.pdf" class = link>PDF</a></p>
-      
-        <h3> Contributions </h3>
-          <p>Sicsic M. 
-            <i>Financial Incentives to Work in France between 1998 and 2014</i>. 2018. Economie et Statistique.
-              <a class= link href="https://www.persee.fr/doc/estat_0336-1454_2018_num_503_1_10852">PDF</a> 
-          </p>
-          <p>Fourcot J and Sicsic M. 
-            <i>Les taux marginaux effectifs de prélèvement pour les
-              personnes en emploi en France en 2014</i>. 2017. Direction des statistiques démographiques et sociales.
-              <a class= link href="https://www.insee.fr/fr/statistiques/fichier/2581807/F1701.pdf">PDF</a> 
-          </p>
-          <p>Bastard B, Boigeol A, Bénec'H-Le Roux P, Jamet L and Printz A.
-            <i>Éthique et TIC : A quoi sert l’Ordre des avocats ?</i>. 2016. Mission de Recherche Droit et Justice.
-              <a class= link href="https://halshs.archives-ouvertes.fr/halshs-01592917/document">PDF</a> 
-          </p>
+        </div>
       </div>
     </section>
 
@@ -389,47 +400,161 @@ Econometrics, Computational Social Sciences, Public Policy Evaluation. </p>
         <div class="resume-content">
           <h2 class="mb-5"> Talks, Workshops &amp; Mentoring</h2>
           <h3> Talks</h3>
-          <p> <i> Openfisca Project</i>. Open Government Parnership Global Summit 2016, Paris City Hall [December, 2016] <a class= link href="https://youtu.be/MlIL-WZ62AU?t=17320">Video</a></p> 
+          <p> <i> Openfisca Project</i>. Open Government Parnership Global Summit 2016, Paris City Hall [December, 2016]
+            <a class=link href="https://youtu.be/MlIL-WZ62AU?t=17320">Video</a></p>
           <h3> Workshops</h3>
-          <p> <i>GRID3 DRC Workshop on Modelled Population Estimates</i>. National Census Bureau, Kinshasa, Democratic Republic of Congo [May 2019]</p>      
+          <p> <i> Workshop on Hybrid Census </i>. National Census Bureau, Ouagadougou, Burkina Faso. March 2021. <a
+              class=link
+              href="https://docs.google.com/presentation/d/13tc0DdDVf7lU4q8fDeVJRlVVXxhLjvIcaKtIxH4B1bE/edit?usp=sharing">Material</a>
+          </p>
+          <p> <i>Workshop on Gridded Population</i>. Université Norbert Zongo, Université Joseph Ki-Zerbo, Burkina Faso.
+            December 2020
+            <a class=link
+              href="https://docs.google.com/presentation/d/1roxjaDpsF6s7-08XVTr3enAKSD9CFu0JgtEerv4H3dw/edit?usp=sharing">Material</a>
+          </p>
+          <p> <i> Workshop on Modelled Population Estimates</i>. National Census Bureau, Kinshasa, Democratic
+            Republic of Congo. May 2019. </p>
+          <h3> Webinars </h3>
+          <i>Population Modelling.</i> GRID3 Webinar Series. May 2020.
+          <a class=link href="https://www.youtube.com/watch?v=HMFM8HzLfH8&feature=youtu.be">Material</a></p>
+          <h3>Tutorials</h3>
+          <i>Small area population estimates using random forest top-down disaggregation: An R tutorial</i>. January
+          2021.
+          <a class=link href="https://data.worldpop.org/repo/docs/leasure2021small/">Material</a></p>
           <h3> Mentoring</h3>
-          1-year Mentoring Program at the College Rosa Parks, Gentilly with 3 twelve-years-old students. [2015-2016]
+          1-year Mentoring Program at the College Rosa Parks, Gentilly with 3 twelve-years-old students. 2015-2016
         </div>
         <div class="resume-date text-md-right" style="padding-top: 6rem;padding-left: 1em">
-            <div class= "img">
-              <iframe width="350" height="205" src="https://www.youtube.com/embed/MlIL-WZ62AU?start=17317" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
-            </div>
+          <div class="img">
+            <iframe width="350" height="205" src="https://www.youtube.com/embed/MlIL-WZ62AU?start=17317" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
 
     </section>
 
     <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+        <h3> Programming Languages &amp; Tools</h3>
+        <h4 class="mb-0">Statistics</h4>
+        <div class="resume-content">
+          <p>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fab fa-r-project"></i>
+              tidyr, ggplot2, sf, raster, lavaan, rstan, rjags
+            </li>
+            <li>
+              <i class="fab fa-python"></i>
+              scikit-learn, panda, numpy
+            </li>
+            <li>
+              <i class="far fa-chart-bar"></i>
+              Software for Bayesian Analyses (JAGS, Stan)
+            </li>
+          </ul>
+          </p>
+        </div>
+        <h4 class="mb-0">GIS Software</h4>
+        <div class="resume-content">
+          <p>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fas fa-map-marked-alt"></i>
+              ArcGis
+            </li>
+            <li>
+              <i class="fas fa-map-marked-alt"></i>
+              QGis
+            </li>
+          </ul>
+          </p>
+        </div>
+        <h4 class="mb-0">Miscelleanous</h4>
+        <p>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Basic knowledge of UNIX system.</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Knowledge of html and css.</li>
+        </ul>
+        </p>
+        <h3> Reporting and Visulisation </h3>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fas fa-columns"></i>
+            R markdown</li>
+          <li>
+          <li>
+            <i class="fas fa-desktop"></i>
+            Shiny App</li>
+          <li>
+          <li>
+            <i class="far fa-file-pdf"></i>
+            Latex</li>
+          <li>
+        </ul>
 
+        <h3>Work Management Tools</h3>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fab fa-slack-hash"></i>
+            Slack</li>
+          <li>
+            <i class="fab fa-trello"></i>
+            Trello</li>
+          <li>
+            <i class="fas fa-file-excel"></i>
+            Excel</li>
+          <li>
+            <i class="fab fa-git"></i>
+            Git versionning</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="commitment">
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
           <h2 class="mb-5">Social Commitment</h2>
           <h3> CoopCycle Association</h3>
           <h4> The Idea: A Platform Cooperativism</h4>
-            <p>CoopCycle is an association that aims at creating an <b> European federation of local bike delivery cooperative </b> to mutualize costs and share the knowledge and lessons learned of a worker-owned delivery activity.
-            The services offered by the network consist in developing a tailored platform/dispatch software that answers the needs of riders, advocating around bike delivery at different scales, applying for grants application or providing adivce on legislation, worker rights, marketing and branding. </p>
+          <p>CoopCycle is an association that aims at creating an <b> European federation of local bike delivery
+              cooperative </b> to mutualize costs and share the knowledge and lessons learned of a worker-owned delivery
+            activity.
+            The services offered by the network consist in developing a tailored platform/dispatch software that answers
+            the needs of riders, advocating around bike delivery at different scales, applying for grants application or
+            providing adivce on legislation, worker rights, marketing and branding. </p>
 
-            <p> We also created a custom licensing to restrict software access only to workers co-ops where production and economic value are democratically shared. Our objective is to allow couriers to build co-ops and then emancipate themselves from existing platforms (Deliveroo and co).</p>
-            <p>We won the Paris City Hall prize for Social Business (30k) and Call for Action in Seine-Saint-Denis (8k).</p>
+          <p> We also created a custom licensing to restrict software access only to workers co-ops where production and
+            economic value are democratically shared. Our objective is to allow couriers to build co-ops and then
+            emancipate themselves from existing platforms (Deliveroo and co).</p>
+          <p>We won the Paris City Hall prize for Social Business (30k) and Call for Action in Seine-Saint-Denis (8k).
+          </p>
           <h4> My contributions</h4>
-          <p>  As a member I'm involved at different stages of the projet from working group animation and local coop support to meetings organization and outreach activities. </p>
+          <p> As a member I'm involved at different stages of the projet from working group animation and local coop
+            support to meetings organization and outreach activities. </p>
           <div class="subheading mb-3">Talks</div>
-          <p>"How couriers can take control: A co-op alternative to Uber Eats and Deliveroo", Manchester Co-operatives UK. [Novembre 2018] <a class= link href="https://www.youtube.com/watch?v=qB3nTICTDig&feature=youtu.be&t=566">Video</a> </p>
-          <p>"CoopCycke as a Showcase for Platform Cooperativsm". Hong-Kong Platform Cooperativism Consortium 2018 [Septembre 2018] <a class= link href="https://www.youtube.com/watch?v=OCHMLAjogzU">Video</a> </p>
-      </div>
-      <div class="resume-date text-md-right">
-        <div class= "img">
+          <p>"How couriers can take control: A co-op alternative to Uber Eats and Deliveroo", Manchester Co-operatives
+            UK. [Novembre 2018] <a class=link
+              href="https://www.youtube.com/watch?v=qB3nTICTDig&feature=youtu.be&t=566">Video</a> </p>
+          <p>"CoopCycke as a Showcase for Platform Cooperativsm". Hong-Kong Platform Cooperativism Consortium 2018
+            [Septembre 2018] <a class=link href="https://www.youtube.com/watch?v=OCHMLAjogzU">Video</a> </p>
+        </div>
+        <div class="resume-date text-md-right">
+          <div class="img">
             <img src="img/CoopCycle-logo-Centre.png" style="max-width:250px;padding:5px;padding-bottom:3rem">
             <img src="img/pic-cc.png" style="max-width:250px;padding:5px;padding-bottom:6rem">
-            <iframe width="360" height="215" src="https://www.youtube.com/embed/qB3nTICTDig?start=1526" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+            <iframe width="360" height="215" src="https://www.youtube.com/embed/qB3nTICTDig?start=1526" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
-      </div>
     </section>
 
     <hr class="m-0">
@@ -440,30 +565,32 @@ Econometrics, Computational Social Sciences, Public Policy Evaluation. </p>
         <div class="resume-content">
           <h2 class="mb-5">Recognitions</h2>
           <h3>Awards</h3>
-          <p> <ul class="fa-ul mb-0">
-                <li>
-                  <i class="fas fa-award"></i>
-                  Vice-Chancellor Award for Research Impact, University of Southampton [2018]</li>
-                <li>
-                  <i class="fas fa-award"></i>
-                  Finalist for Openfisca at the Open Government Partnership Hackathon, Paris Summit [2016]</li> 
-              </ul>
-            </p>
+          <p>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fas fa-award"></i>
+              Vice-Chancellor Award for Research Impact, University of Southampton [2018]</li>
+            <li>
+              <i class="fas fa-award"></i>
+              Finalist for Openfisca at the Open Government Partnership Hackathon, Paris Summit [2016]</li>
+          </ul>
+          </p>
           <h3>Grants</h3>
-          <p> <ul class="fa-ul mb-0">
-              <li>
-                <i class="fas fa-money-bill-wave-alt"></i>
-                Grant Fonds Sarah Andrieux for Social and Economics Research (800€) [2017]</li>
-              <li>
-                <i class="fas fa-money-bill-wave-alt"></i>
-                Four-year Scholarship at the École Normale supérieure de Cachan (4x15,600€) [2015-2019]</li> 
-            </ul>
+          <p>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fas fa-money-bill-wave-alt"></i>
+              Grant Fonds Sarah Andrieux for Social and Economics Research (800€) [2017]</li>
+            <li>
+              <i class="fas fa-money-bill-wave-alt"></i>
+              Four-year Scholarship at the École Normale supérieure de Cachan (4x15,600€) [2015-2019]</li>
+          </ul>
           </p>
         </div>
         <div class="resume-date text-md-right">
-            <div class= "img">
-                <img src="img/award.jpg" style="max-width:350px;padding:5px;padding-top:3rem">
-            </div>
+          <div class="img">
+            <img src="img/award.jpg" style="max-width:350px;padding:5px;padding-top:3rem">
+          </div>
         </div>
       </div>
     </section>
